@@ -1,0 +1,37 @@
+.MainArea {
+  padding: 0;
+  margin: 0;
+}
+.ContainerForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 85vh;
+}
+.OptionsArea {
+  display: flex;
+  background-color: #d9d9d9;
+  align-items: center;
+  justify-content: space-between;
+  height: 7vh;
+  width: 75vw;
+}
+.LeftButton {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 10px;
+}
+.RightButton {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 10px;
+}
+
+

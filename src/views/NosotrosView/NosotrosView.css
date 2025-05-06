@@ -1,0 +1,22 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.area-information {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-height: 0;
+}
+/*-----------------------------------------------------*/
+
+/*Area Párrafo */
+
+.area-mision-vision {
+  display: flex;
+  flex-direction: column;
+}
+.area-mision {
+  display: flex;
+}

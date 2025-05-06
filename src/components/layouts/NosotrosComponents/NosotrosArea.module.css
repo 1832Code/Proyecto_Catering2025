@@ -1,0 +1,53 @@
+/*Area Nosotros*/
+.MainArea {
+  flex-grow: 1;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1d1c1c;
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+}
+/*Area Columna Izquierda */
+.SubAreaLeft {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.Image {
+  width: 70%;
+  height: 70vh;
+  object-fit: cover; /* o 'contain' dependiendo del caso */
+  border-radius: 12px;
+}
+/*Area Columna Derecha */
+.SubAreaRight {
+  display: flex;
+  justify-content: center;
+
+  width: 50%;
+}
+/*Area Párrafo */
+.TextArea {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 50vh;
+  justify-content: center;
+  align-items: start;
+  color: white;
+}
+.TextArea h2 {
+  font-family: Tienne, sans-serif;
+  font-size: 3rem;
+}
+.TextArea p {
+  padding-bottom: 15vh;
+  font-family: Jacques Francois, sans-serif;
+  font-size: 1.2em;
+}
+
+.Reverse {
+  flex-direction: row-reverse;
+}

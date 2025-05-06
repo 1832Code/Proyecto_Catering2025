@@ -1,0 +1,66 @@
+.MainArea {
+  display: grid;
+  grid-template-columns: 1.2fr 1.1fr repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  padding-left: 3vw;
+}
+.ContainerArea {
+  grid-area: 2 / 1 / 6 / 6;
+  margin: 0;
+  height: 80vh;
+}
+
+.FirstArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+.InformationArea {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  gap: 20px;
+  padding-left: 2em;
+  padding-bottom: 7em;
+  padding-right: 13em;
+}
+
+/*Sub texto*/
+.FirstText {
+  font-family: "Italiana", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+}
+/*Texto rojo*/
+.SecondText {
+  font-family: var(--font-geist-sans), sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f74343;
+  width: 20.5rem;
+  height: 8vh;
+  padding-left: 6px;
+  padding-right: 6px;
+  color: white;
+  font-size: 170%;
+}
+/*Botón reservar*/
+.ReservButtom {
+  display: flex;
+  font-family: var(--font-inter), sans-serif;
+  font-size: 16px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  background-color: #2c2c2c;
+  cursor: pointer;
+  height: 10vh;
+  padding: 5px;
+  width: 10vw;
+}

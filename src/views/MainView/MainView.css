@@ -1,0 +1,48 @@
+.body {
+  display: grid;
+  grid-template-columns: 0.7fr 1.1fr repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+/*División de Columnas*/
+.column1 {
+  grid-area: 1 / 1 / 2 / 6;
+  z-index: 1;
+  position: relative;
+}
+/*------------------------------------------------------------*/
+.column2 {
+  grid-area: 1 / 2 / 6 / 3; /* Cambia fila de inicio: 1 */
+  z-index: 0; /* Colócala por encima de div1 */
+  position: relative; /* Necesario para que z-index funcione */
+}
+.background-column2 {
+  top: 0;
+  left: 50%; /* puedes ajustar */
+  transform: translateX(15%);
+  background-color: #1d1c1c;
+  width: 17vw;
+  height: 100%; /* o el alto que desees */
+  z-index: 0; /* atrás */
+  background-color: #1d1c1c;
+}
+.imageMain {
+  width: 50vw;
+  height: 50vh;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  transform: translate(-1%, -150%);
+  z-index: 0; /* al frente */
+  border: 15px solid #1d1c1c;
+}
+
+/*------------------------------------------------------------*/
+.column3 {
+  grid-area: 1 / 3 / 6 / 6;
+}

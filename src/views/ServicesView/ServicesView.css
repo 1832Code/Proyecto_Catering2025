@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+}
+.nav-secondary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-component {
+  width: 70vw;
+}
+
+.area-services {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../assets/images/ImagenMain.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  color: white; /* Color del Card Blanco */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.area-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100em;
+  height: 90%;
+}
+.carousel-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
